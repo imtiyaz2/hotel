@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  padding: 0 20px;;
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+}
+#nav {
+  overflow: auto;
+  color: white;
+  background-color: black;
+}
+#nav ul{
+  float: right;
+}
+#nav ul li{
+      list-style: none;
+      float: left;          
+}
+#nav ul li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding:10px 20px ;
+}
+#nav h1 a{
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding-top: 5px ;
+}
+#nav ul li a:hover,
+#nav ul li a.current{
+color: lightsalmon;
+background-color: gray;
+}
+.showcase{
+  background: url('..//image_resources/showcase.jpg');
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.showcase .content{
+  text-align: center;
+  padding-top:170px ;
+}
+.content h1{
+  line-height: 90px;
+  font-size: 60px;
+  color: white;
+}
+.content .primary{
+  color: lightsalmon;
+}
+.content p{
+  line-height:1.6rem;
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+}
+.btn {
+    display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
+  padding: 18px 20px;
+  background-color: black;
+  border-style: none;
+  cursor: pointer;
+}
+.btn:hover{
+  color: lightsalmon;
+  background-color: grey;
+}
+
+.img-holder{
+  float: left;
+  width: 50%;
+  height: 250px;
+  background: url('..//image_resources/photo-1.jpg') no-repeat;
+} 
+.home-info{
+  width: 50%;
+  height: 250px;
+  float: right;
+  background:black;
+  color: white;
+}
+.home-info p{
+  font-size: 18px;
+  padding: 10px 25px;
+  text-align: center;
+}
+.home-info h2{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+.home-info .primary-2{
+  color: lightsalmon;
+}
+.btn-2 {
+display: inline-block;
+text-decoration: none;
+color: white ;
+padding: 18px 20px;
+background-color: grey;
+border-style: none;
+cursor: pointer;
+margin-left: 40%; 
+}
+.btn-2:hover{
+  color: lightsalmon;
+  background-color: lightsteelblue;
+}
+#boxes .box1,.box2,.box3{
+  float: left;
+  width: 33%;
+  padding: 50px;
+  text-align: center;
+}
+.box1 i{
+  padding-bottom: 20px;
+}
+.box2 i{
+  padding-bottom: 20px;
+}
+.box3 i{
+  padding-bottom: 20px;
+}
+
+#boxes .box2{
+  background-color: lightsalmon;
+  color: black;
+}
+.clr{
+  clear: both;
+}
+footer p{
+  overflow: auto;
+  background: black ;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/* about page */
+#about-info{
+  padding:30px 0;
+}
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding:20px;
+}
+.info-left h1{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.info-left h1 .about{
+  color: lightsalmon;
+}
+.info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+.info-right img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+#test{
+  height: 600px;
+  background: url('./image_resources/test-bg.jpg') no-repeat center center/cover;
+  margin-top: 10px;
+}
+#test .container-test img{
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.container-test{
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 15px;
+  float: right;
+  background-color: lightsalmon;
+  margin-bottom: 20px;
+}
+
+#test h1{
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.container-test p{
+  padding: 10px 10px;
+  line-height: 20px;
+  font-size: 17px;
+}
+/* contact-us  */
+.py{
+  padding:28px;
+}
+.contact-form .primary{
+  color: lightsalmon;
+}
+.contact-form h1{
+  font-size: 28px;
+}
+.contact-form h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+.input-form input,textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+}
+.input-form textarea{
+  height: 100px;
+}
+.button-form{
+  margin-bottom: 15px;
+}
+.contact-footer{
+  margin-top: 25px;
+}
